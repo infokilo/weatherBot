@@ -1,0 +1,11 @@
+# General
+.env
+*.sqlite
+__pycache__
+db.json
+.vscode
+
+# Replit files
+poetry.lock
+pyproject.toml
+.breakpoints
