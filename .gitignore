@@ -1,14 +1,8 @@
 # General
 .*
 !/.gitignore
-*.sqlite
 __pycache__
+
+# Database files
+*.sqlite
 db.json
-
-# Replit files
-poetry.lock
-pyproject.toml
-
-# Replit's run button doesn't work when there's a requirements.txt file
-# Keeping it out of the repository seems to fix that.
-requirements.txt
