@@ -1,8 +1,0 @@
-disnake
-aiosqlite
-aiohttp-client-cache
-timeago
-autopep8
-python-dotenv
-tinydb
-flask
