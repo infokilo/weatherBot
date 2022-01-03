@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "repl_python3_weatherBot"
+version = "0.1.0"
+description = ""
+authors = ["infokilo <<>>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+timeago = "^1.0.15"
+tinydb = "^4.5.2"
+Flask = "^2.0.2"
+python-dotenv = "^0.19.2"
+disnake = "^2.3.0"
+aiohttp-client-cache = "^0.5.2"
+aiosqlite = "^0.17.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
