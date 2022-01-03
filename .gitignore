@@ -1,15 +1,13 @@
 # General
-.env
+.*
+!/.gitignore
 *.sqlite
 __pycache__
 db.json
-.vscode
 
 # Replit files
 poetry.lock
 pyproject.toml
-.breakpoints
-.replit
 
 # Replit's run button doesn't work when there's a requirements.txt file
 # Keeping it out of the repository seems to fix that.
