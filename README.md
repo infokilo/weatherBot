@@ -4,9 +4,7 @@ A simple weather bot for Discord.
 ## Running on your own machine
 ### Setup
 
-1. [Optional] Start a virtualenv: `virtualenv venv && source venv/bin/activate`
-
-1. Install requirements: `pip install -r requirements.txt`
+1. Install requirements: `poetry install`
 
 1. Set up environment variables
 
@@ -20,5 +18,5 @@ A simple weather bot for Discord.
     
     1. Add the BOT_TOKEN and WEATHER_KEY
   
-1. Start the bot: `python3 main.py`
+1. Start the bot: `poetry run python3 main.py`
 
